@@ -4,4 +4,5 @@ from .models import *
 
 admin.site.register(Game)
 admin.site.register(Studio)
-admin.site.register(User)
+admin.site.register(Genre)
+

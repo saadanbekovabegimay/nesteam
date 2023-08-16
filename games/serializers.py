@@ -11,8 +11,7 @@ class StudioSerializer(serializers.ModelSerializer):
         model = Studio
         fields = '__all__'
 
-
-class UserSerializer(serializers.ModelSerializer):
+class GenreSerializer(serializers.ModelSerializer):
     class Meta:
-        model = User
-        fields = ['id', 'username']
+        model = Genre
+        fields = '__all__'
